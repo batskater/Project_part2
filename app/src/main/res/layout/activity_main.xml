@@ -13,8 +13,7 @@
         android:id="@+id/"
         android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:layout_marginTop="150dp"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -23,8 +22,7 @@
         android:text="Username:"
         android:id="@+id/textView"
         android:textSize="20dp"
-        android:layout_marginTop="26dp"
-        android:layout_below="@+id/"
+        android:layout_centerVertical="true"
         android:layout_toStartOf="@+id/" />
 
     <TextView
@@ -61,7 +59,7 @@
         android:text="Ok"
         android:id="@+id/button"
         android:textSize="25dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="44dp"
         android:background="@android:color/black"
         android:textColor="#ffffffff"
         android:layout_below="@+id/textView2"
